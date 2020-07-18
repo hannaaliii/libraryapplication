@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+   
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body style="background-color: rgb(184, 181, 179);">
+
+    <nav class="navbar navbar-expand-md " id="navStyle">
+        <a class="navbar-brand" href="/">HOME</a>             
+        <ul class="navbar-nav mr-auto"> 
+            <%for(i=0;i<nav.length;i++){%>
+            <li class="nav-item "><a class="nav-link" href='<%=nav[i].link%>'><%=nav[i].name%></a></li>
+            <%}%>
+       </ul>  
+    </nav>
+
+    <div class="container-fluid"  id="libraryHeading">
+        <div id="libHead"><h3>Book</h3></div>
+        <div id="blank"></div>
+    </div>
+
+    <div class="container" id="profile">
+        
+        <div id="firstProfile">
+            <div id="firstImage">
+                <img src="/img/<%=book.img%>" height="100px" width="100px" alt="">
+            </div>
+            <div id="firstProfiledata">
+                <h2><%=book.title%></h2>
+                <button><%=book.author%></button>
+                <br>
+                
+            </div>
+        </div>
+        <hr>
+    
+    </div>
+
+    <footer>
+        <h2>Follow Us</h2>
+        <div class="follow">
+            <div class="sociallink" style="background-color: rgb(105, 163, 238);"><a href="#">Twitter</a></div>
+            <div class="sociallink" style="background-color: darkblue;"><a href="#">Facebook</a></div>
+            <div class="sociallink" style="background-color: rgb(231, 15, 15);"><a href="#">Google+</a></div>
+        </div>
+    </footer>
+     
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

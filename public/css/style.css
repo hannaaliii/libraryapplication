@@ -1,0 +1,305 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#navStyle{
+    padding-left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(44, 4, 119);
+}
+
+#navStyle a{
+    color: white;
+
+
+}
+
+
+
+#libraryHeading{
+
+    background-color: rgb(4, 4, 66);
+    color: rgb(34, 104, 209);
+    height: 200px;
+    
+}
+#libHead{
+    float: left;
+    color: white;
+    margin-left: 7%;
+    margin-top: 75px;
+
+}
+
+#blank{
+    float: left;
+    height: 100px;
+    width: 400px;
+    background-color: rgb(44, 4, 119);
+    margin-left: 49%;
+    margin-top: 50px;
+}
+
+#profile{
+
+    background-color:white;
+    height: 700px;
+    margin-top: -30px ;
+    padding-top: 5px;
+
+}
+
+#firstProfile,#secondProfile,#thirdProfile{
+
+    margin: 50px 30px 50px auto ;
+    height: 100px;
+    
+    
+}
+#firstImage,#secondImage,#thirdImage{
+    float: left;
+    border-radius: 50px;
+}
+
+#firstImage img,#secondImage img,#thirdImage img{
+    border-radius: 50%;
+
+}
+
+#firstProfiledata,#secondProfiledata,#thidProfiledata{
+    float: left;
+    padding-left: 5px;
+    margin-left: 40px;
+    
+}
+#firstProfiledata h2,
+#secondProfiledata h2,
+#thidProfiledata h2
+{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#firstProfiledata a{
+
+    font-size: 15px;
+}
+
+#firstProfiledata button,
+#secondProfiledata button,
+#thidProfiledata button{
+
+    background-color: rgb(78, 77, 77);
+    color: white;
+    border: none;
+    padding: 3px 10px 3px 10px;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+
+#morebtn{
+
+    float: right;
+    margin-right:50px ;
+    padding: 5px 20px 5px 20px;
+    background-color: teal;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+/* sign in form style */
+
+#signinformContainer{
+
+    background:linear-gradient(45deg,rgb(214, 210, 201),rgb(131, 100, 100));
+}
+
+#formImage{
+
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(45deg,rgb(78, 49, 5),black);
+
+}
+
+#signinform{
+    padding: 5% 2% 2% 2%;
+    width: 280px;
+    background-color: rgb(219, 202, 202);
+    margin: auto;
+}
+
+
+
+#signinform h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#signinform input[type="text"],
+#signinform input[type="password"],
+#signinform input[type="email"]
+{
+
+    
+    
+    overflow: hidden;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(36, 32, 32);
+    outline: none;
+}
+#signinInput{
+
+    border-bottom: 1px solid gray;
+    margin: 20px 5px 20px 0px;
+}
+
+
+#signinform input[type="checkbox"]{
+    margin-top: 15px;
+
+}
+
+#signinform label{
+    margin-top: 10px;
+}
+#signinform button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(42, 165, 97);
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#regLink{
+
+    text-align: center;
+}
+
+/* signup form style */
+
+
+
+#signupformImage{
+
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(45deg,rgb(71, 2, 71),rgb(49, 49, 51));
+}
+
+#signupform{
+    margin: auto;
+    
+}
+
+
+#signupform h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(4, 65, 65);
+}
+
+
+#signupform input[type="text"],
+#signupform input[type="password"],
+#signupform input[type="email"]{
+   
+    
+    padding: 5px 0 0 0;
+    overflow: hidden;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#username,
+#phonenumber,
+#email,
+#cpassword,
+#rpassword{
+    background-color: white;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+    padding: 5px 10px 5px 0;
+}
+#signupform button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background:linear-gradient(45deg,rgb(10, 7, 9),rgb(63, 3, 50)) ;
+    color: white;
+    
+}
+
+
+/* footer */
+
+footer{
+
+
+    background-color: rgb(184, 181, 179);
+    padding-left: 8%;
+    padding-top: 40px;
+    height: 150px;
+    margin-top: 100px;
+    
+    
+}
+
+
+
+.sociallink{
+    height: 25px;
+    width: 80px;
+    float: left;
+    text-align: center;
+   
+       
+}
+
+
+.sociallink a{
+    text-decoration: none;
+    color: white;
+}
+
+#usernameCorrect,
+#usernameWrong,
+#signinCorrect,
+#signinWrong,
+#upusernameCorrect,
+#upusernameWrong,
+#phoneCorrect,
+#phoneWrong,
+#emailCorrect,
+#emailWrong,
+#cpasswordCorrect,
+#cpasswordWrong,
+#rpasswordCorrect,
+#rpasswordWrong{
+
+    display: none;
+}
+
+#regsuccess,
+#insuccess{
+    text-align: center;
+    margin-top: 100px;
+}
